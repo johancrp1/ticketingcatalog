@@ -13,7 +13,7 @@ public class EventDTO {
 
     private Long id; // ID único del evento
 
-    @NotBlank(message = "El nombre del evento no puede estar vacío")
+    @NotBlank(message = "El nombre del evento no puede estar vaciío")
     private String name; // Nombre del evento
 
     private String date; // Fecha del evento (puede ser String por ahora)
