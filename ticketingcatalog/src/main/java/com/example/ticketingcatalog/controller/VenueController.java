@@ -12,7 +12,7 @@ import java.util.List;
 @RequestMapping("/venues") // Base path para todos los endpoints de venues
 public class VenueController {
 
-    private final VenueServiceImpl venueService; // Inyección del servicio de venues
+    private final VenueServiceImpl venueService; // Inyección del servicioo de venues
 
     public VenueController(VenueServiceImpl venueService) {
         this.venueService = venueService;
