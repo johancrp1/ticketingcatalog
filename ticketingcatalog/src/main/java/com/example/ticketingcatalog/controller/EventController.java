@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController // Indica que la clase es un controlador REST
-@RequestMapping("/events") // Base path para todos los endpoints de eventos
+@RequestMapping("/events") // Base path para todos los endpoints de eventoss
 public class EventController {
 
     private final EventServiceImpl eventService;
