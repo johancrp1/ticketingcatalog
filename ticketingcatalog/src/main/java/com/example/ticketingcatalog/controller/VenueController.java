@@ -18,13 +18,13 @@ public class VenueController {
         this.venueService = venueService;
     }
 
-    // GET /venues -> devuelve todos los venues
+    // GET /venues -> devuelve todos los venuess
     @GetMapping
     public ResponseEntity<List<VenueDTO>> getAll() {
         return ResponseEntity.ok(venueService.getAll());
     }
 
-    // GET /venues/{id} -> devuelve un venue por ID
+    // GET /venues/{id} -> devuelvee un venue por ID
     @GetMapping("/{id}")
     public ResponseEntity<VenueDTO> getById(@PathVariable Long id) {
         return venueService.getById(id)
